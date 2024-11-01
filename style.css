@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DBDBDB;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    width: 100%;
+    height: 3.4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+.imglogo{
+    width: 6.5rem;
+    height: 1.8rem;
+}
+.divdoisheader{
+    display: flex;
+    gap: 1.5rem;
+}
+ion-icon {
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.div1{
+    background-color: white;
+    width: 38rem;
+    height: 6rem;  
+    display: flex;
+    gap: 0.95rem;
+    overflow: auto;
+    align-items: center;
+}
+.div1de1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divstores{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.topodafoto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    margin-top: 1rem;
+    height: 3rem;
+}
+.conteudo{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.fotogato{
+    max-width: 38rem;
+    height: auto;
+
+}
+.divfoto1{
+   background-color: white;
+  
+}
+.finalfoto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    
+}
+.final1{
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.5rem;  
+}
+.final2{
+    margin-right: 0.5rem;
+}
+.iconefoto{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.9rem;
+}
+
+
+.divconteudoaolado{
+    width: 18.5rem;
+    height: auto;
+    left: 5.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.divtopo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.imgtopo{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1.75rem;
+    margin-right: 1rem;
+
+}
+.artfotos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nomecatana{
+    color: #8e8e8e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.sugestao{
+    color: #8e8e8e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.imagens{
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+}
+.seguir{
+    margin-left: 4rem;
+    color: #139EF2;
+}
+.seguir1{
+    margin-left: 7rem;
+    color: #139EF2;
+}
+.seguir2{
+    margin-left: 3.1rem;
+    color: #139EF2;
+}
+.seguir3{
+    margin-left: 4rem;
+    color: #139EF2;
+}
+.seguir4{
+    margin-left: 5.7rem;
+    color: #139EF2;
+}
+.partigo{
+    display: flex;
+    flex-direction: row;
+    color: #c7c7c7
+}
+.iconi_pagina{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+ @media (max-width: 600px){
+    .divdoisheader{
+        display: none;
+    }
+}
+@media(max-width: 950px){
+    .divconteudoaolado{
+        display:none ;
+    }
+}
+
+@media (max-width: 612px){
+    .fotogato{
+        width: 100%;
+    }
+}
+@media (max-width: 612px){
+    .div1{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 612px){
+    .divstores .divstores8{
+        width: 100%;
+        height: auto;
+    }
+}
